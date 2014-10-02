@@ -1,0 +1,36 @@
+/*-------------------------------------------- header ------------------------------------------*/
+#header {
+	@extend %pageWidth;
+
+	position: relative;
+	z-index: 2;
+
+	height: 130px;
+	padding-top: 26px;
+}
+#containerHeader {
+	height: 130px;
+}
+#menu {
+	@extend %pageWidth;
+}
+.mainMenu{
+	@extend .horizontal-menu; 
+}
+
+.hPhone{
+	text-align: right;
+}
+/*-------------------------------------------- footer ------------------------------------------*/
+#footer {@extend %pageWidth;
+
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+
+	height: $fHeight;
+}
+#containerFooter {
+	height: $fHeight;
+}
