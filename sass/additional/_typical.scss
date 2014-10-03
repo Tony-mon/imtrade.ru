@@ -7,16 +7,11 @@
     float: left !important;
 }
 
-.justified{
-	text-align: justify;
-	&:after{
-		content:"";
-		display: inline-block;
-		width: 100%;
-	}
-	&>div{
-		display: inline-block;
-		vertical-align: top;
+.link{
+	text-decoration: underline;
+	cursor:pointer;
+	&:hover{
+		text-decoration: none;
 	}
 }
 
@@ -95,6 +90,7 @@ form .ng-invalid.ng-dirty, .ng-dirty.invalid
 		display: inline-block;
 		content:"";
 		width: 100%;
+		font-size: 0;
 	}
 	&>div{
 		display: inline-block;

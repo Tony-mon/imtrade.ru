@@ -4,10 +4,66 @@ $baseBright:red;
 $white:#fff;
 
 $green:#8bb235;
+$mdGreen:#74a32a;
+
+$gray:#999999;
+
+$lBlue:#5496d5;
+$blue:#004588;
+$mdBlue:#003465;
+$faBlue:#002a51;
+
+
+//header
+#header{
+	color:$blue;
+}
 
 
 // Menu
 .mainMenu{
 	background:$green;
 	color:$white;
+	.active{
+		a{
+			background:$mdGreen;
+		}
+	}
+	a{
+		&:hover{
+			background:darken($green, 1%);
+		}
+	}
+	input[type="text"]{
+		color:$gray;
+	}
 }
+
+//footer
+
+#footer{
+	background-color: $mdBlue;
+	color:#fff;
+	&:after{
+		background:$faBlue;
+	}
+}
+.fCol{
+	ul, .devBy{
+		color:$lBlue;
+		a{
+			&:hover{
+				color:$white;
+			}
+		}
+	}
+}
+
+//typical
+
+.link{
+	&.green{
+		color:$green;
+	}
+}
+

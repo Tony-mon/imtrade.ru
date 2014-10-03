@@ -1,3 +1,5 @@
 <?include 'include/header.php';?>
-	maincontent
+	
+	content
+
 <?include 'include/footer.php';?>

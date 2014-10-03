@@ -5,11 +5,12 @@
 	position: relative;
 	z-index: 2;
 
-	height: 130px;
-	padding-top: 26px;
+	height: 95px;
+	padding: 10px 0 20px;
+	font-size: 12px;
 }
 #containerHeader {
-	height: 130px;
+	height: 95px;
 }
 #menu {
 	@extend %pageWidth;
@@ -18,8 +19,80 @@
 	@extend .horizontal-menu; 
 }
 
+.hLinks{
+	text-transform: uppercase;
+	.link{
+		display: inline-block;
+		margin-right: 40px;
+		&:last-child{
+			margin-right: 0;
+		}
+		&.write{
+			&:before{
+				background-position: 0 0;
+			}
+		}
+		&.map{
+			&:before{
+				background-position: -24px 0;
+			}
+		}
+		&:before{
+			display: inline-block;
+			content:"";
+			width: 22px;
+			height: 14px;
+			@include sprite();
+			margin-right: 5px;
+		}
+	}
+}
+
+.hLinks, .hPhones{
+	margin-top: 35px;
+}
 .hPhone{
 	text-align: right;
+	display: inline-block;
+	margin-right: 25px;
+	&:last-child{
+		margin-right: 0;
+	}
+	.telLink{
+		font-size: 18px;
+		display: block;
+		margin-bottom: 5px;
+		strong{
+			display: inline-block;
+			vertical-align: top;
+			font-size: 24px;
+			line-height: 1;
+		}
+	}
+}
+.mainMenu{
+	font-weight: 700;
+	text-transform: uppercase;
+	form{
+		position: relative;
+	}
+	input[type="text"]{
+		width: 270px;
+		height: 28px;
+		@include border-radius(14px);
+		@include box-sizing(border-box);
+		background-color: #fff;
+		padding: 0 15px 0 30px;
+		text-transform: uppercase;
+	}
+	input[type="submit"]{
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		top: 24px;
+		left: 7px;
+		@include sprite(0, -15px);
+	}
 }
 /*-------------------------------------------- footer ------------------------------------------*/
 #footer {@extend %pageWidth;
@@ -28,9 +101,109 @@
 	z-index: 2;
 	bottom: 0;
 	left: 0;
+	padding: 35px 0 60px;
+	line-height: 1.5;
 
 	height: $fHeight;
+	@include box-sizing(border-box);
+	&:after{
+		content:"";
+		display: block;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 27px;
+	}
 }
 #containerFooter {
-	height: $fHeight;
+}
+
+.recCol{
+	font-size: 12px;
+	.copyright{
+		margin-bottom: 8px;
+	}
+	.fLogo{
+		margin-bottom: 35px;
+		display: block;
+	}
+	.fFilial{
+		margin-bottom: 8px;
+		&.last{
+			margin-bottom: 40px;
+		}
+	}
+}
+#bx-composite-banner{
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.fCol, .recCol, .fCols{
+	display: inline-block;
+}
+.fCols{
+	float: right;
+	min-height: 100%;
+	margin-top: 35px;
+}
+.fCol{
+	min-height: 100%;
+	margin-right: 20px;
+	width: 215px;
+	height: 308px;
+	.colTitle{
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	ul{
+		padding: 0;
+		font-size: 14px;
+	}
+	li{
+		line-height: 1;
+		margin-bottom: 10px;
+	}
+}
+
+.devBy{
+	position: absolute;
+	bottom: 5px;
+	line-height: 16px;
+	left: 0;
+	font-size: 12px;
+	&:hover{
+		text-decoration: underline;
+	}
+	&:before{
+		content:"";
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		@include sprite(-24px, -15px);
+		margin-right: 5px;
+	}
+}
+
+///*--------------------------------------------- body -------------------------------------------*/
+#pageHTML {@extend %pageWidth;
+
+	position: relative;
+
+	height: 100%;
+	height: auto!important;
+	min-height: 100%;
+}
+main {
+	position: relative;
+	z-index: 1;
+}
+
+
+#containerMain {
+	@extend %pageWidth;
+	padding-bottom: $fHeight + 30px;
 }
