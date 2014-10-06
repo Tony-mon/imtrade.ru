@@ -4,14 +4,143 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700&subset=latin,cyrillic);
+@import "compass/css3";
 @import "compass/reset";
 @import "additional/vars";
 @import "additional/mixins";
 @import "additional/colors";
-@import "compass/css3";
 @import "additional/resets";
 @import "additional/typical";
 @import "additional/page";
+
+
+//-----------------------------------sliderOnMain
+.sliderOnMain{
+	.fotorama__html{
+		&>div{
+			@extend %pageWidth;
+			height: 100%;
+			.inner{
+				left: 0;
+				right: 0;
+				top: 0;
+				height: 100%;
+			}
+		}
+	}
+	.inner{
+		position: absolute;
+	}
+	.slideTitle{		
+		font-size: 60px;
+		font-weight: 700;
+		line-height: 1;
+		margin-bottom: 35px;
+	}
+	.slideText{
+		font-size: 24px;
+		font-weight: 300;
+	}
+	.slideTexting{
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto 0;
+		display: table;
+	}
+	.fotorama__arr{
+		width: 28px;
+		height: 42px;
+		@include sprite(0, -34px);
+	}
+	.fotorama__arr--next{
+		@include flipH();
+		right: 10px;
+	}
+	.fotorama__arr--prev{
+		left: 10px;
+	}
+}
+
+.sliderOnMain + .containerMain{
+	top: -85px;
+}
+
+.brendRows{
+	margin-top: 10px;
+	padding-bottom: 3px;
+	.row{
+		display: block;
+		min-height: 100px;
+		margin: 8px 0;
+		&:last-child{
+			.wrap{
+				border-bottom: 0;
+
+			}
+		}
+	}
+	img{
+		@include alignCenter();
+		max-width: 80%;
+		max-height: 90%;
+	}
+	.wrap{
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		height: 100%;
+	}
+}
+
+.categoryRows{
+	margin-top: 10px;
+	[class*="row-"]{
+		&:hover{
+			.inner{
+				&:after{
+					display: block;
+				}
+			}
+		}
+		.inner{
+			&:after{
+				display: none;
+				content:"";
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				height: 100%;
+				width: 100%;
+			}
+		}
+		.title{
+			display: block;
+			position: absolute;
+			bottom: 10%;
+			left: 10%;
+			right: 10%;
+			font-size: 18px;
+			font-weight: 700;
+			text-transform: uppercase;
+			z-index: 5;
+		}
+	}
+}
+
+.newsOnMain{
+	.inner{
+		height: 100%;
+	}	
+}
+
+.aboutBlock{
+	margin-top: -25%;
+	position: relative;
+	.inner{
+		height: 100%;
+	}
+}
 
 
 

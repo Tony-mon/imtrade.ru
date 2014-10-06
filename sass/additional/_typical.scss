@@ -109,3 +109,55 @@ form .ng-invalid.ng-dirty, .ng-dirty.invalid
 		}
 	}	
 }
+
+.paddinged{
+	padding: 0 30px;
+	@include box-sizing(border-box);
+}
+.blockTitle{
+	line-height: 85px;
+	height: 85px;	
+	font-size: 36px;
+	font-weight: 700;
+	padding-bottom: 0;
+}
+
+/// ------------------------------------------------  GRID
+
+//------- vars
+
+$gutter:10px;
+$colWidth:24.9%;
+$columns:4;
+
+[class*='rows-']{
+	margin-right: -$gutter/2;
+	margin-left: -$gutter/2;
+	font-size: 0;
+}
+
+[class*='row-']{
+	padding: 0 $gutter/2;
+	 margin-bottom: $gutter;
+	@include box-sizing(border-box);
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top;
+	&.noMargin{
+		margin-bottom: 0;
+	}
+}
+
+@for $i from 1 through $columns {
+	@for $b from 1 through $columns {
+
+		@if $b<=$i{
+
+			.row-#{$b}-#{$i}{
+			  width: 100 / $i * $b *1%;
+			}
+
+		}
+			
+	}
+}

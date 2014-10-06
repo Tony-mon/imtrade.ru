@@ -7,12 +7,25 @@ $green:#8bb235;
 $mdGreen:#74a32a;
 
 $gray:#999999;
+$lGray:#eee;
+$plitkaGray:#e2e2e2;
+$mGray:#d9d9d9;
 
 $lBlue:#5496d5;
 $blue:#004588;
 $mdBlue:#003465;
 $faBlue:#002a51;
 
+
+.greenBG{
+	background:$green;
+}
+.blueBG{
+	background:$blue;
+}
+.blockTitle{
+	color:$white;
+}
 
 //header
 #header{
@@ -59,6 +72,11 @@ $faBlue:#002a51;
 	}
 }
 
+
+#containerMain{
+	background:$lGray;
+}
+
 //typical
 
 .link{
@@ -66,4 +84,46 @@ $faBlue:#002a51;
 		color:$green;
 	}
 }
+
+//--slider on main
+
+.sliderOnMain{
+	.inner{
+		color: #fff;
+	}
+	.slideTitle{
+		@include text-shadow(0 2px 2px rgba(0,0,0,.3));
+	}
+	.slideText{
+		color: #fff;
+	}
+}
+
+.brendRows{
+	background:$white;
+	.wrap{
+		border-bottom-color: $mGray;
+	}
+}
+
+.categoryRows{
+	[class*="row-"]{
+		.inner{
+			background:$plitkaGray;
+			height: 100%;
+			&:after{
+				background:rgba(#000, 0.05);
+			}
+		}
+		.title{
+			color: $blue;
+		}
+		&:hover{
+			.title{
+				color: $green;
+			}
+		}
+	}
+}
+				
 

@@ -53,18 +53,24 @@
 </div>
 <div id="containerMain" >
 	<div class="sliderOnMain">
-		<div class="fotorama" data-width="100%" data-ratio="3/1">
+		<div class="fotorama" data-width="100%" data-ratio="1680/635" data-nav="none">
 			<div>
 				<img src="i/slide.jpg" alt="">
-				<div class="inner">
-					Ntrcn
-				</div>
+				<a href="" class="inner">
+					<div class="slideTexting">
+						<div class="slideTitle">Без отрыва<br>от производства</div>
+						<div class="slideText">Широкая складская номенклатура оборудования,<br>минимизация сроков поставки и ремонта</div>
+					</div>					
+				</a>
 			</div>
 			<div>
 				<img src="i/slide.jpg" alt="">
-				<div class="inner">
-					Ntrcn
-				</div>
+				<a href="" class="inner">
+					<div class="slideTexting">
+						<div class="slideTitle">Без отрыва<br>от производства</div>
+						<div class="slideText">Широкая складская номенклатура оборудования,<br>минимизация сроков поставки и ремонта</div>
+					</div>					
+				</a>
 			</div>
 		</div>
 	</div>
