@@ -26,7 +26,7 @@
 <div id="menu" class="mainMenu">
 	<nav class="inner nav">
 		<li class="pull-right">
-			<form action=""><input type="text" placeholder="Поиск"><input type="submit" value=""></form>
+			<form action=""><input type="text" placeholder="Поиск"><span class="callSearch"></span><input type="submit" value=""></form>
 		</li>
 		<li class="active">
 			<a href="">Главная</a>
@@ -53,7 +53,7 @@
 </div>
 <div id="containerMain" >
 	<div class="sliderOnMain">
-		<div class="fotorama" data-width="100%" data-ratio="1680/635" data-nav="none">
+		<div class="fotorama" data-width="100%" data-ratio="1680/1000" data-nav="none" data-maxheight="635">
 			<div>
 				<img src="i/slide.jpg" alt="">
 				<a href="" class="inner">

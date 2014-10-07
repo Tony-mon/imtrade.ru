@@ -161,3 +161,38 @@ $columns:4;
 			
 	}
 }
+
+.date{
+	display: block;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.slick-dots{
+	top: -55px;
+	text-align: right;
+	bottom:auto;
+	padding-right: 25px;
+	@include box-sizing(border-box);
+	li{
+		margin: 0;
+		button{
+			width: 12px;
+			height: 12px;
+			@include opacity(.1);
+			@include border-radius(6px);
+			&:hover{
+				@include opacity(.2);
+			}
+			&:before{
+				display: none;
+			}
+		}
+	}
+	
+	.slick-active{
+		button{
+			@include opacity(1);
+		}
+	}
+}

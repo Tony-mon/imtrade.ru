@@ -9,46 +9,67 @@
 			</div>
 
 			<div class="brendRows">
-				<a class="row paddinged halfW">
-					<div class="wrap">
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
 						<img src="i/brend.jpg" alt="">
-					</div>				
-				</a>
-				<a class="row paddinged halfW">
-					<div class="wrap">
+					</a>				
+				</div>
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
 						<img src="i/brend1.jpg" alt="">
-					</div>				
-				</a>
-				<a class="row paddinged halfW">
-					<div class="wrap">
+					</a>				
+				</div>
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
 						<img src="i/logo.jpg" alt="">
-					</div>				
-				</a>
-				<a class="row paddinged halfW">
-					<div class="wrap">
+					</a>				
+				</div>
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
 						<img src="i/brend.jpg" alt="">
-					</div>				
-				</a>
-				<a class="row paddinged halfW">
-					<div class="wrap">
+					</a>				
+				</div>
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
 						<img src="i/brend1.jpg" alt="">
-					</div>				
-				</a>
-				<a class="row paddinged halfW">
-					<div class="wrap">
+					</a>				
+				</div>
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
 						<img src="i/logo.jpg" alt="">
-					</div>				
-				</a>
-				<a class="row paddinged halfW">
-					<div class="wrap">
+					</a>				
+				</div>
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
 						<img src="i/brend.jpg" alt="">
-					</div>				
-				</a>
-				<a class="row paddinged halfW">
-					<div class="wrap">
+					</a>				
+				</div>
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
 						<img src="i/brend1.jpg" alt="">
-					</div>				
-				</a>
+					</a>				
+				</div>
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
+						<img src="i/logo.jpg" alt="">
+					</a>				
+				</div>
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
+						<img src="i/brend.jpg" alt="">
+					</a>				
+				</div>
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
+						<img src="i/brend1.jpg" alt="">
+					</a>				
+				</div>
+				<div class="row paddinged halfW">
+					<a href="" class="wrap">
+						<img src="i/logo.jpg" alt="">
+					</a>				
+				</div>
+
 			</div>
 		</div>
 
@@ -97,12 +118,111 @@
 
 		<div class="row-2-4 newsOnMain">
 			<div class="inner blueBG halfW">
-				
+				<h2 class="blockTitle paddinged">Новости</h2>
+				<div class="rows">
+					<div class="row paddinged">
+						<time class="date">12/04/2014</time>
+						<a href="" class="title">Помимо высококачественных энкодеров для практически любых областей применения</a>
+						<p>Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно</p>
+					</div>
+					<div class="row paddinged">
+						<time class="date">12/04/2014</time>
+						<a href="" class="title">Помимо высококачественных энкодеров для практически любых областей применения</a>
+						<p>Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно</p>
+					</div>
+					<div class="row paddinged">
+						<time class="date">12/04/2014</time>
+						<a href="" class="title">Помимо высококачественных энкодеров для практически любых областей применения</a>
+						<p>Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно</p>
+					</div>
+					<div class="row paddinged">
+						<time class="date">12/04/2014</time>
+						<a href="" class="title">Помимо высококачественных энкодеров для практически любых областей применения</a>
+						<p>Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно</p>
+					</div>
+					<div class="row paddinged">
+						<time class="date">12/04/2014</time>
+						<a href="" class="title">Помимо высококачественных энкодеров для практически любых областей применения</a>
+						<p>Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно</p>
+					</div>
+					<div class="row paddinged">
+						<time class="date">12/04/2014</time>
+						<a href="" class="title">Помимо высококачественных энкодеров для практически любых областей применения</a>
+						<p>Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row-2-4 squerEl aboutBlock">
 			<div class="inner greenBG">
-				
+				<img src="i/aboutPic.jpg" alt="">
+				<div class="text paddinged">
+					<h2 class="blockTitle">О компании</h2>
+					<p>
+						Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно рефлектирует типичный принцип восприятия, хотя в официозе принято обратное. Созерцание, как принято считать, транспонирует катарсис, ломая рамки привычных представлений. Освобождение подчеркивает гений, отрицая очевидное. Созерцание, по определению, нетривиально. Сомнение, конечно, непредсказуемо. Единственной космической субстанцией Гумбольдт считал 
+					</p>
+					<a href="" class="more">Подробнее</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="carusel logosCarusel partnersBlock">
+			<div class="navi squerEl">
+				<div class="inner">
+					<a href="" class="cTitle"><span><span>Наши</span><br>партнеры</span></a>
+				</div>
+			</div>		
+			<div class="cWrapper">
+				<div class="row squerEl">
+					<div class="inner">
+						<img src="i/brend.jpg" alt="">
+					</div>
+				</div>
+				<div class="row squerEl">
+					<div class="inner">
+						<img src="i/brend.jpg" alt="">
+					</div>
+				</div>
+				<div class="row squerEl">
+					<div class="inner">
+						<img src="i/brend.jpg" alt="">
+					</div>
+				</div>
+				<div class="row squerEl">
+					<div class="inner">
+						<img src="i/brend.jpg" alt="">
+					</div>
+				</div>
+				<div class="row squerEl">
+					<div class="inner">
+						<img src="i/brend.jpg" alt="">
+					</div>
+				</div>
+				<div class="row squerEl">
+					<div class="inner">
+						<img src="i/brend.jpg" alt="">
+					</div>
+				</div>
+				<div class="row squerEl">
+					<div class="inner">
+						<img src="i/brend.jpg" alt="">
+					</div>
+				</div>
+				<div class="row squerEl">
+					<div class="inner">
+						<img src="i/brend.jpg" alt="">
+					</div>
+				</div>
+				<div class="row squerEl">
+					<div class="inner">
+						<img src="i/brend.jpg" alt="">
+					</div>
+				</div>
+				<div class="row squerEl">
+					<div class="inner">
+						<img src="i/brend.jpg" alt="">
+					</div>
+				</div>
 			</div>
 		</div>
 

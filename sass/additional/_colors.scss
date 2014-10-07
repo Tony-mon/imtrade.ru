@@ -2,6 +2,7 @@
 $baseText:#000;
 $baseBright:red;
 $white:#fff;
+$black:#000;
 
 $green:#8bb235;
 $mdGreen:#74a32a;
@@ -125,5 +126,57 @@ $faBlue:#002a51;
 		}
 	}
 }
-				
+
+.newsOnMain{
+	.row{
+		color:$gray;
+		&:after{
+			@include opacity(.05);
+			background-color: $white;
+		}
+	}
+	.title{
+		color:$white;
+	}
+}
+
+.slick-dots{
+	li{
+		button{
+			background-color: $white;
+		}
+	}	
+}
+
+.aboutBlock{
+	color:$white;
+	.more{
+		background:rgba($black, 0.15);
+		&:before{
+			color:#fff;
+		}
+		&:hover{
+			background:rgba($black, 0.4);
+		}
+	}
+}
+
+.logosCarusel{
+	.navi{		
+		.inner{
+			background:$blue;
+		}
+		.cTitle{
+			color:#fff;
+		}
+	}
+
+	.cWrapper{
+		.inner{
+			background:$white;
+		}
+	}
+	
+}
+
 

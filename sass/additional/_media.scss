@@ -1,0 +1,56 @@
+// Media
+
+@media screen and (max-width: 1240px){
+	.mainMenu{
+		.pull-right{
+			position: absolute;
+			right: 15px;
+			top: 0;
+			&.shown{
+				input[type="text"]{
+					width: 232px;
+					@include opacity(1);
+					@include transition(all, 0.3s);
+				}
+				input[type="submit"]{
+					display: block;
+				}
+			}
+		}
+		input[type="text"]{
+			width: 0;
+			@include opacity(0);
+		}
+		input[type="submit"]{
+			display: none;
+		}
+	}
+	.sliderOnMain .slideTexting{
+		left: 15px;
+	}
+
+}
+
+@media screen and (max-width: 1024px){
+	.hLinks .link{
+		display: block;
+		margin-right: 0;
+	}
+	.mainMenu{
+		li{
+			a{
+				padding: 0 15px;
+			}
+		}		
+	}
+
+	.fCol{
+		width: 175px;
+		&:last-child{
+			width: 200px; 
+		}
+	}
+	.recCol{
+		width: 305px;
+	}
+}

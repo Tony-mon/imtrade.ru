@@ -27,6 +27,7 @@
 	<!-- CSS concatenated and minified via ant build script-->
 	<link  href="http://fotorama.s3.amazonaws.com/4.5.2/fotorama.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/screen.css">
+
 	
 	<!-- end CSS-->
 </head>

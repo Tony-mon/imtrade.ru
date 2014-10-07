@@ -1,16 +1,25 @@
 $(function(){
 
-	topSl();
+	
 
 	$( window ).resize(function() {
 	  	// $("#pageHTML").removeClass("openMenu");
 	  	topSl();
 	});
 
-	$("#menuButton").click(function(){
-		$("#pageHTML").toggleClass("openMenu");
-	});
-	
+	// Поиск на адаптивном разрешение
+	$("body").click(function (event) {
+		 if ( 
+		  $(event.target).closest(".mainMenu .pull-right").length === 0 
+		 ) {
+		  $(".mainMenu .pull-right").removeClass("shown");
+		 }
+	})
+
+	$(".mainMenu .pull-right").click(function(){
+		$(this).addClass("shown");
+	});	
+	//-----------------------------------
 
 	function topSl(){
 
@@ -22,12 +31,12 @@ $(function(){
 			var padding = $(this).css('padding-left').replace('px','');
 
 			var height = parseInt($(this).width()/2) + parseInt(padding) - 5;
-			
-			console.log(height);
 
 			$(this).height(height);
 
 		});
+
+		$(".brendRows").height($(".brendRows .row").height() * 8 + 69);
 
 		$(".prodRowsOnMain .squerEl").height($(".prodRowsOnMain .squerEl").width());
 
@@ -41,5 +50,92 @@ $(function(){
 		
 	}
 
+	// Блок новостей на главной
+	$(".newsOnMain .rows").slick({
+	  dots: true,
+	  infinite: false,
+	  speed: 300,
+	  slidesToShow: 2,
+	  slidesToScroll: 2,
+	  arrows: false,
+	  responsive: [
+	    {
+	      breakpoint: 600,
+	      settings: {
+	        slidesToShow: 2,
+	        slidesToScroll: 2
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1
+	      }
+	    }
+	  ]
+	});
+
+	//Бренды  
+	$(".brendRows").slick({
+	  vertical: true,
+	  dots: true,
+	  infinite: false,
+	  speed: 300,
+	  slidesToShow: 8,
+	  slidesToScroll: 8,
+	  arrows: false,
+	  responsive: [
+	    {
+	      breakpoint: 600,
+	      settings: {
+	        slidesToShow: 2,
+	        slidesToScroll: 2
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1
+	      }
+	    }
+	  ]
+	});
+
+
+	// Блок новостей на главной
+	$(".logosCarusel .cWrapper").slick({
+	  dots: false,
+	  infinite: false,
+	  speed: 300,
+	  slidesToShow: 7,
+	  slidesToScroll: 7,
+	  responsive: [
+	    {
+	      breakpoint: 600,
+	      settings: {
+	        slidesToShow: 2,
+	        slidesToScroll: 2
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1
+	      }
+	    }
+	  ]
+	});
+
+
+	topSl();
+
+
+
+
+
+	
 
 });
