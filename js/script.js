@@ -7,6 +7,11 @@ $(function(){
 	  	topSl();
 	});
 
+	// Добавление и удаления класса адаптивного меню
+	$("#menuButton").click(function(){
+		$("#pageHTML").toggleClass("openMenu");
+	});
+
 	// Поиск на адаптивном разрешение
 	$("body").click(function (event) {
 		 if ( 
@@ -104,7 +109,7 @@ $(function(){
 	});
 
 
-	// Блок новостей на главной
+	// Партнеры
 	$(".logosCarusel .cWrapper").slick({
 	  dots: false,
 	  infinite: false,

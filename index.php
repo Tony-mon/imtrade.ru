@@ -123,7 +123,7 @@
 					<div class="row paddinged">
 						<time class="date">12/04/2014</time>
 						<a href="" class="title">Помимо высококачественных энкодеров для практически любых областей применения</a>
-						<p>Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно</p>
+						<p>Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленноЕдинственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно</p>
 					</div>
 					<div class="row paddinged">
 						<time class="date">12/04/2014</time>
@@ -157,10 +157,13 @@
 			<div class="inner greenBG">
 				<img src="i/aboutPic.jpg" alt="">
 				<div class="text paddinged">
-					<h2 class="blockTitle">О компании</h2>
-					<p>
-						Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно рефлектирует типичный принцип восприятия, хотя в официозе принято обратное. Созерцание, как принято считать, транспонирует катарсис, ломая рамки привычных представлений. Освобождение подчеркивает гений, отрицая очевидное. Созерцание, по определению, нетривиально. Сомнение, конечно, непредсказуемо. Единственной космической субстанцией Гумбольдт считал 
-					</p>
+					<div class="inner">
+						<h2 class="blockTitle">О компании</h2>
+						<p>
+							Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно рефлектирует типичный принцип восприятия, хотя в официозе принято обратное. Созерцание, как принято считать, транспонирует катарсис, ломая рамки привычных представлений. Освобождение подчеркивает гений, отрицая очевидное. Созерцание, по определению, нетривиально. Сомнение, конечно, непредсказуемо. Единственной космической субстанцией Гумбольдт считал 
+							Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это закон внешнего мира осмысленно рефлектирует типичный принцип восприятия, хотя в официозе принято обратное. Созерцание, как принято считать, транспонирует катарсис, ломая рамки привычных представлений. Освобождение подчеркивает гений, отрицая очевидное. Созерцание, по определению, нетривиально. Сомнение, конечно, непредсказуемо. Единственной космической субстанцией Гумбольдт считал 
+						</p>
+					</div>
 					<a href="" class="more">Подробнее</a>
 				</div>
 			</div>
@@ -173,56 +176,56 @@
 				</div>
 			</div>		
 			<div class="cWrapper">
-				<div class="row squerEl">
-					<div class="inner">
-						<img src="i/brend.jpg" alt="">
+					<div class="row squerEl">
+						<div class="inner">
+							<img src="i/brend.jpg" alt="">
+						</div>
 					</div>
-				</div>
-				<div class="row squerEl">
-					<div class="inner">
-						<img src="i/brend.jpg" alt="">
+					<div class="row squerEl">
+						<div class="inner">
+							<img src="i/brend.jpg" alt="">
+						</div>
 					</div>
-				</div>
-				<div class="row squerEl">
-					<div class="inner">
-						<img src="i/brend.jpg" alt="">
+					<div class="row squerEl">
+						<div class="inner">
+							<img src="i/brend.jpg" alt="">
+						</div>
 					</div>
-				</div>
-				<div class="row squerEl">
-					<div class="inner">
-						<img src="i/brend.jpg" alt="">
+					<div class="row squerEl">
+						<div class="inner">
+							<img src="i/brend.jpg" alt="">
+						</div>
 					</div>
-				</div>
-				<div class="row squerEl">
-					<div class="inner">
-						<img src="i/brend.jpg" alt="">
+					<div class="row squerEl">
+						<div class="inner">
+							<img src="i/brend.jpg" alt="">
+						</div>
 					</div>
-				</div>
-				<div class="row squerEl">
-					<div class="inner">
-						<img src="i/brend.jpg" alt="">
+					<div class="row squerEl">
+						<div class="inner">
+							<img src="i/brend.jpg" alt="">
+						</div>
 					</div>
-				</div>
-				<div class="row squerEl">
-					<div class="inner">
-						<img src="i/brend.jpg" alt="">
+					<div class="row squerEl">
+						<div class="inner">
+							<img src="i/brend.jpg" alt="">
+						</div>
 					</div>
-				</div>
-				<div class="row squerEl">
-					<div class="inner">
-						<img src="i/brend.jpg" alt="">
+					<div class="row squerEl">
+						<div class="inner">
+							<img src="i/brend.jpg" alt="">
+						</div>
 					</div>
-				</div>
-				<div class="row squerEl">
-					<div class="inner">
-						<img src="i/brend.jpg" alt="">
+					<div class="row squerEl">
+						<div class="inner">
+							<img src="i/brend.jpg" alt="">
+						</div>
 					</div>
-				</div>
-				<div class="row squerEl">
-					<div class="inner">
-						<img src="i/brend.jpg" alt="">
+					<div class="row squerEl">
+						<div class="inner">
+							<img src="i/brend.jpg" alt="">
+						</div>
 					</div>
-				</div>
 			</div>
 		</div>
 

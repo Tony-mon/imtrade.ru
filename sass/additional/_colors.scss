@@ -37,17 +37,19 @@ $faBlue:#002a51;
 // Menu
 .mainMenu{
 	background:$green;
-	color:$white;
 	.active{
 		a{
 			background:$mdGreen;
 		}
 	}
-	a{
-		&:hover{
-			background:darken($green, 1%);
+	li{
+		a{
+			color:$white;
+			&:hover{
+				background:darken($green, 1%);
+			}
 		}
-	}
+	}	
 	input[type="text"]{
 		color:$gray;
 	}
@@ -99,7 +101,9 @@ $faBlue:#002a51;
 		color: #fff;
 	}
 }
-
+.hPhone{
+	color:$blue;
+}
 .brendRows{
 	background:$white;
 	.wrap{

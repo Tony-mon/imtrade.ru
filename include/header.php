@@ -24,9 +24,20 @@
 	</div>
 </header>
 <div id="menu" class="mainMenu">
+	<div id="menuButton">
+		<div class="menuLine"></div>
+		<div class="menuLine"></div>
+		<div class="menuLine"></div>
+	</div>
 	<nav class="inner nav">
-		<li class="pull-right">
-			<form action=""><input type="text" placeholder="Поиск"><span class="callSearch"></span><input type="submit" value=""></form>
+		<li class="pull-right ad-menu-ico search">
+			<form action=""><input type="text" placeholder="Поиск"><span class="callSearch ico"></span><input type="submit" value=""></form>
+		</li>
+		<li class="ad-menu-ico mail">
+			<a href="" class="ico"></a>
+		</li>
+		<li class="ad-menu-ico siteMap">
+			<a href="" class="ico"></a>
 		</li>
 		<li class="active">
 			<a href="">Главная</a>
@@ -50,6 +61,18 @@
 			<a href="">Контакты</a>
 		</li>
 	</nav>
+	<div class="hPhones">
+		<div class="hPhone">
+			<a href="tel:+74953746331" class="telLink">+7 (495) <strong>374 63 31</strong></a>
+			Москва, центральный офис<br>
+			<span class="link green">Обратный звонок</span>
+		</div>
+		<div class="hPhone">
+			<a href="tel:+74953746331" class="telLink">+7 (495) <strong>374 63 31</strong></a>
+			Москва, центральный офис<br>
+			<span class="link green">Обратный звонок</span>
+		</div>
+	</div>
 </div>
 <div id="containerMain" >
 	<div class="sliderOnMain">

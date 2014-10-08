@@ -9,7 +9,7 @@
 	<title>Заголовок</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<!-- <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0"/> -->
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0"/>
 	<meta name="HandheldFriendly" content="True"/>
 	<!-- Mobile Internet Explorer позволяет принудительно активировать технологию ClearType для сглаживания шрифтов -->
 	<!--[if IE]>
