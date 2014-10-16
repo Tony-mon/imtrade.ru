@@ -7,6 +7,7 @@
 @import "compass/css3";
 @import "compass/reset";
 @import "libs/slick";
+@import "additional/sprite";
 @import "additional/vars";
 @import "additional/mixins";
 @import "additional/colors";
@@ -52,9 +53,7 @@
 		display: table;
 	}
 	.fotorama__arr{
-		width: 28px;
-		height: 42px;
-		@include sprite(0, -34px);
+		@include sprite($arrow-big);
 	}
 	.fotorama__arr--next{
 		@include flipH();
@@ -290,19 +289,17 @@
 	.slick-prev, .slick-next{
 		bottom: 15%;
 		top:auto;
-		width: 16px;
-		height: 22px;
-		@include sprite(-48px, 0);
+		@include sprite($arr-icon-blue);
 		content:"";
 		&:before{
 			display: none;
 		}
 		&:hover{
-			background-position: -48px -23px;
+			background-position: $arr-icon-white-offset-x $arr-icon-white-offset-y;
 		}
 	}
 	.slick-slider{
-		margin-bottom: 0;
+		margin-bottom: 0; 
 	}
 }
 

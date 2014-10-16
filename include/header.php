@@ -29,48 +29,50 @@
 		<div class="menuLine"></div>
 		<div class="menuLine"></div>
 	</div>
-	<nav class="inner nav">
-		<li class="pull-right ad-menu-ico search">
-			<form action=""><input type="text" placeholder="Поиск"><span class="callSearch ico"></span><input type="submit" value=""></form>
-		</li>
-		<li class="ad-menu-ico mail">
-			<a href="" class="ico"></a>
-		</li>
-		<li class="ad-menu-ico siteMap">
-			<a href="" class="ico"></a>
-		</li>
-		<li class="active">
-			<a href="">Главная</a>
-		</li>
-		<li>
-			<a href="">О нас</a>
-		</li>
-		<li>
-			<a href="">Продукция</a>
-		</li>
-		<li>
-			<a href="">Бренды</a>
-		</li>
-		<li>
-			<a href="">Новости</a>
-		</li>
-		<li>
-			<a href="">Услуги (поставки)</a>
-		</li>
-		<li>
-			<a href="">Контакты</a>
-		</li>
-	</nav>
-	<div class="hPhones">
-		<div class="hPhone">
-			<a href="tel:+74953746331" class="telLink">+7 (495) <strong>374 63 31</strong></a>
-			Москва, центральный офис<br>
-			<span class="link green">Обратный звонок</span>
-		</div>
-		<div class="hPhone">
-			<a href="tel:+74953746331" class="telLink">+7 (495) <strong>374 63 31</strong></a>
-			Москва, центральный офис<br>
-			<span class="link green">Обратный звонок</span>
+	<div class="menuWrapp">
+		<nav class="inner nav">
+			<li class="pull-right ad-menu-ico search">
+				<form action=""><input type="text" placeholder="Поиск"><span class="callSearch ico"></span><input type="submit" value=""></form>
+			</li>
+			<li class="ad-menu-ico mail">
+				<a href="" class="ico"></a>
+			</li>
+			<li class="ad-menu-ico siteMap">
+				<a href="" class="ico"></a>
+			</li>
+			<li class="active">
+				<a href="">Главная</a>
+			</li>
+			<li>
+				<a href="">О нас</a>
+			</li>
+			<li>
+				<a href="">Продукция</a>
+			</li>
+			<li>
+				<a href="">Бренды</a>
+			</li>
+			<li>
+				<a href="">Новости</a>
+			</li>
+			<li>
+				<a href="">Услуги (поставки)</a>
+			</li>
+			<li>
+				<a href="">Контакты</a>
+			</li>
+		</nav>
+		<div class="hPhones">
+			<div class="hPhone">
+				<a href="tel:+74953746331" class="telLink">+7 (495) <strong>374 63 31</strong></a>
+				Москва, центральный офис<br>
+				<span class="link green">Обратный звонок</span>
+			</div>
+			<div class="hPhone">
+				<a href="tel:+74953746331" class="telLink">+7 (495) <strong>374 63 31</strong></a>
+				Москва, центральный офис<br>
+				<span class="link green">Обратный звонок</span>
+			</div>
 		</div>
 	</div>
 </div>

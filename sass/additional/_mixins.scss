@@ -34,9 +34,9 @@
              transition: $element $duration $effect $start;
 }
 // Наложение спрайта
-@mixin sprite($x:0px,$y:0px,$color:transparent){
-	background: $color url("../i/sprite.png") $x $y no-repeat;
-}
+// @mixin sprite($x:0px,$y:0px,$color:transparent){
+// 	background: $color url("../i/sprite.png") $x $y no-repeat;
+// }
 
 // Матрица преобразований
 @mixin matrix($a: 1, $c:0, $b:0, $d:1, $tx:0, $ty:0)

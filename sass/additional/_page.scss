@@ -35,23 +35,24 @@
 			margin-right: 0;
 			margin-bottom: 0;
 		}
-		&.write{
-			&:before{
-				background-position: 0 0;
-			}
-		}
+		// &.write{
+		// 	&:before{
+		// 		background-position: 0 0;
+		// 	}
+		// }
 		&.map{
 			&:before{
-				background-position: -24px 0;
+				@include sprite($sitemap-icon);
 			}
 		}
 		&:before{
 			display: inline-block;
 			content:"";
-			width: 22px;
-			height: 14px;
-			@include sprite();
+			// width: 22px;
+			// height: 14px;
+			// @include sprite();
 			margin-right: 5px;
+			@include sprite($mail-icon);
 		}
 	}
 }
@@ -103,15 +104,14 @@
 	}
 	input[type="submit"], .callSearch{
 		position: absolute;
-		width: 16px;
-		height: 16px;
 		top: 24px;
 		display: block;
 		left: 7px;
-		@include sprite(0, -15px);
+		@include sprite($search-icon-little-green);
+		background-color: transparent;
 	}
 	.callSearch{
-		background-position: -30px -33px;
+		background-position: $search-icon-little-white-offset-x $search-icon-little-white-offset-y;
 	}
 	.hPhones{
 		display: none;
@@ -207,7 +207,7 @@
 		display: inline-block;
 		width: 16px;
 		height: 16px;
-		@include sprite(-24px, -15px);
+		@include sprite($dev-icon);
 		margin-right: 5px;
 	}
 }
@@ -248,6 +248,8 @@
 	}
 }
 ///*--------------------------------------------- body -------------------------------------------*/
+
+
 #pageHTML {@extend %pageWidth;
 	padding: 0;
 	position: relative;
@@ -255,6 +257,9 @@
 	height: 100%;
 	height: auto!important;
 	min-height: 100%;
+	&.openMenu{
+		position: fixed;
+	}
 }
 main {
 	position: relative;

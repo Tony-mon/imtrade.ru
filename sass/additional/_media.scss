@@ -74,7 +74,14 @@
 }
 @media screen and (max-width: 959px){
 
-	.openMenu{
+	#pageHTML.openMenu{
+		height: 100% !important;
+		.menuWrapp{
+			overflow: scroll;
+			overflow-x: visible;
+			height: 100%;
+			background:$white;
+		}
 		#menu{
 			// right: 0;
 			-webkit-transform: translate3d(-280px,0,0);
@@ -83,6 +90,7 @@
 			transition: transform 0.4s;
 			-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 			transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+			height: 100%;
 		}
 		&:after{
 			display: block;
@@ -94,6 +102,9 @@
 			bottom: 0;
 			z-index: 10;
 			content:"";
+		}
+		#footer{
+			display: none;
 		}
 	}
 	#menu{
@@ -113,7 +124,7 @@
 		min-width: 0;
 		right: -280px;
 		background:$white;
-		&>.inner {
+		.inner.nav {
 			background:$green;
 			padding-bottom: 20px;
 		}
@@ -121,7 +132,7 @@
 			display: block;
 		}
 		.ad-menu-ico{
-			width: 88px;
+			width: 87px;
 			height: 88px !important;
 			display: inline-block !important;
 			vertical-align: top;
@@ -129,7 +140,7 @@
 			.ico{
 				@include alignCenter();
 				height: 20px;
-				@include sprite();
+				@include sprite($arrow-big);
 				display: block;
 				padding: 0;
 			}
@@ -139,19 +150,22 @@
 			&.search{
 				.ico{
 					width: 20px;
-					background-position: -133px 0;
+					height: 20px;
+					background-position: $search-icon-middle-offset-x $search-icon-middle-offset-y;
 				}
 			}
 			&.mail{
 				.ico{
 					width: 30px;
-					background-position: -67px 0;
+					height: 20px;
+					background-position: $mail-icon-white-offset-x $mail-icon-white-offset-y;
 				}
 			}
 			&.siteMap{
 				.ico{
 					width: 32px;
-					background-position: -99px 0;
+					height: 20px;
+					background-position: $sitemap-icon-white-offset-x $sitemap-icon-white-offset-y;
 				}
 			}
 		}
