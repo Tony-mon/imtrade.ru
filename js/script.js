@@ -12,6 +12,14 @@ $(function(){
 		$("#pageHTML").toggleClass("openMenu");
 	});
 
+	$("body").click(function (event) {
+		 if ( 
+		  $(event.target).closest(".mainMenu").length === 0 
+		 ) {
+		 	$("#pageHTML").removeClass("openMenu");
+		 }
+	})
+
 	// Поиск на адаптивном разрешение
 	$("body").click(function (event) {
 		 if ( 

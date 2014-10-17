@@ -28,13 +28,26 @@
 	.sliderOnMain .slideTexting{
 		left: 15px;
 	}
+	.fCol{
+		margin-right: 15px;
+		width: 200px;
+	}
 
 }
 
 @media screen and (max-width: 1024px){
-	.hLinks .link{
-		display: block;
-		margin-right: 0;
+
+	.hLinks{
+		display: inline-block !important;
+		.link{
+			display: block;
+			margin-right: 0;
+			height: 25px;
+		}
+	}
+	.menuWrapp{ 
+		padding: 0;
+		min-width: 0;
 	}
 	.mainMenu{
 		li{
@@ -43,7 +56,7 @@
 			}
 		}		
 	}
-
+	
 	.fCol{
 		width: 175px;
 		&:last-child{
@@ -71,6 +84,12 @@
 	.paddinged{
 		padding:0 20px;
 	}
+	.sliderOnMain {
+		.slideText{
+			font-size: 18px; 
+		}
+	}
+	
 }
 @media screen and (max-width: 959px){
 
@@ -78,9 +97,14 @@
 		height: 100% !important;
 		.menuWrapp{
 			overflow: scroll;
-			overflow-x: visible;
+			overflow-x: auto;
 			height: 100%;
 			background:$white;
+			z-index: 10;
+			width: 280px;
+			position: absolute;
+			right: 0;
+			-webkit-overflow-scrolling: touch;
 		}
 		#menu{
 			// right: 0;
@@ -91,6 +115,8 @@
 			-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 			transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 			height: 100%;
+			background:#fff;
+
 		}
 		&:after{
 			display: block;
@@ -124,6 +150,7 @@
 		min-width: 0;
 		right: -280px;
 		background:$white;
+		
 		.inner.nav {
 			background:$green;
 			padding-bottom: 20px;
@@ -173,6 +200,7 @@
 			display: block;
 			padding: 30px;
 			margin-top: 0;
+			background: $white;
 			.hPhone{
 				margin-bottom: 20px;
 				text-align: left;
@@ -188,7 +216,7 @@
 		height: 88px;
 		.hPhones,
 		.hLinks{
-			display: none;
+			display: none !important;
 		}
 		.logo{
 			img{
@@ -199,29 +227,125 @@
 	#containerHeader{
 		height: 65px;
 	}
+	.mainMenu{
+		&#menu {
+			padding-left: 0;
+			padding-right: 0;
+			input[type="text"]{
+				position: absolute;
+				top: 30px;
+				left: 20px;
 
-	#menu {
-		input[type="text"]{
-			position: absolute;
-			top: 30px;
-			left: 20px;
-		}
-		li{
-			a{
-				padding: 0 30px;
+			}
+			li{
+				a{
+					padding: 0 30px;
+				}
+			}
+			.shown{
+				.ico{
+					display: none;
+				}
+			}
+			input[type="submit"]{
+				top: 36px;
+				left: 25px;
 			}
 		}
-		.shown{
-			.ico{
-				display: none;
-			}
-		}
-		input[type="submit"]{
-			top: 36px;
-			left: 25px;
+	}
+	.sliderOnMain{
+		.slideTitle{
+			font-size: 48px; 
 		}
 	}
 	#menuButton{
 		display: block;
 	}
+	#containerMain{
+		padding-bottom: 640px;
+	}
+	#footer{
+		height: 608px;
+		background-size: cover;
+		#containerFooter{
+			height: 480px;
+		}
+		.recCol{
+			float: left;
+			.recCol{
+				display: block;
+			}
+			.devBy{
+				display: block;
+				position: relative;
+				margin-top: 20px;
+			}
+		}
+		.fCols{	
+			width: auto;
+			margin-left: 315px;
+			display: block;
+			float: none;
+			font-size: 0;
+			position: static;
+			.fCol{
+				width: 30%;
+				margin-right: 0;
+				padding-right: 15px;
+				@include box-sizing(border-box);
+				position: static;
+				&:nth-child(2){
+					width: 38%;
+				}
+				&:last-child{
+					padding-right: 0;
+				}
+			}
+			.devBy{
+				display: none;
+			}
+		}
+		.fFilial{
+			&.last{
+				margin-bottom: 80px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px){
+
+	#footer{
+		height: 520px;
+		#containerFooter{
+			height: 425px;
+		}
+		.fCols{
+			display: none;
+		}
+	}
+
+	#containerMain{
+		padding-bottom: 560px;
+	}
+
+	.sliderOnMain{
+		.slideTitle{
+			font-size: 36px; 
+		}
+	}
+
+}
+
+@media screen and (max-width: 512px){
+
+	.sliderOnMain{
+		.slideTitle{
+			font-size: 24px; 
+		}
+		.slideText{
+			font-size: 14px; 
+		}
+	}
+
 }

@@ -4,6 +4,34 @@
 		</div>
 		<footer id="footer">
 			<div id="containerFooter" class="inner">
+				<div class="recCol">
+					<a href="/" class="fLogo"><img src="i/fLogo.png" alt=""></a>
+					<div class="copyright">© 2014 ООО «<span itemprop="name">Имтрейд-Групп</span>».</div>
+	
+					<div class="fFilial">
+						<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+							<strong><span itemprop="addressLocality">Москва</span>, центральный офис:</strong> <br>
+					        <span itemprop="postalCode">125040</span>, ул. <span itemprop="streetAddress">3-я Ямского Поля, 18</span>, офис 611 <br>
+					        <meta itemprop="addressCountry" content="RU"/>
+					    </div>
+					    Телефон: <a href="tel:+74953746331" itemprop="telephone">+7 (495) 374 63 31</a>,
+				    	e-mail: <a href="mailto:sales@imtrade.ru" itemprop="email">sales@imtrade.ru</a>
+				    </div>
+					<div class="fFilial last">
+						<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+							<strong><span itemprop="addressLocality">Самара</span>, филиал в Поволжье:</strong> <br>
+					        <span itemprop="postalCode">443090</span>, ул. <span itemprop="streetAddress">Сов. Армии,180. строение 3</span>, офис 904 <br>
+					        <meta itemprop="addressCountry" content="RU"/>
+					    </div>
+					    Телефон: <a href="tel:+78462734939" itemprop="telephone">+7 (846) 273 49 39</a>,
+				    	e-mail: <a href="mailto:sales@imtrade.ru" itemprop="email">sales@imtrade.ru</a>
+					</div>
+
+					<img src="i/counter.png" alt=""><div id="bx-composite-banner"><img src="i/composit.png" alt=""></div>	
+					<br>
+					<a href="http://ravidok.ru" class="devBy">создание сайта Чебоксары</a>		    	
+				</div>	
+
 				<div class="fCols">
 					<div class="fCol">
 						<div class="colTitle"><a href="">Меню</a></div>
@@ -50,33 +78,7 @@
 							<li><a href="">Quae, laborum.</a></li>
 						</ul>
 					</div>
-				</div>	
-
-				<div class="recCol">
-					<a href="/" class="fLogo"><img src="i/fLogo.png" alt=""></a>
-					<div class="copyright">© 2014 ООО «<span itemprop="name">Имтрейд-Групп</span>».</div>
-	
-					<div class="fFilial">
-						<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-							<strong><span itemprop="addressLocality">Москва</span>, центральный офис:</strong> <br>
-					        <span itemprop="postalCode">125040</span>, ул. <span itemprop="streetAddress">3-я Ямского Поля, 18</span>, офис 611 <br>
-					        <meta itemprop="addressCountry" content="RU"/>
-					    </div>
-					    Телефон: <a href="tel:+74953746331" itemprop="telephone">+7 (495) 374 63 31</a>,
-				    	e-mail: <a href="mailto:sales@imtrade.ru" itemprop="email">sales@imtrade.ru</a>
-				    </div>
-					<div class="fFilial last">
-						<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-							<strong><span itemprop="addressLocality">Самара</span>, филиал в Поволжье:</strong> <br>
-					        <span itemprop="postalCode">443090</span>, ул. <span itemprop="streetAddress">Сов. Армии,180. строение 3</span>, офис 904 <br>
-					        <meta itemprop="addressCountry" content="RU"/>
-					    </div>
-					    Телефон: <a href="tel:+78462734939" itemprop="telephone">+7 (846) 273 49 39</a>,
-				    	e-mail: <a href="mailto:sales@imtrade.ru" itemprop="email">sales@imtrade.ru</a>
-					</div>
-
-					<img src="i/counter.png" alt=""><div id="bx-composite-banner"><img src="i/composit.png" alt=""></div>			    	
-				</div>		    
+				</div>	    
 			</div>
 		</footer>
 	</div>

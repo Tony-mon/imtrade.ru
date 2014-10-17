@@ -78,7 +78,7 @@
 </div>
 <div id="containerMain" >
 	<div class="sliderOnMain">
-		<div class="fotorama" data-width="100%" data-ratio="1680/1000" data-nav="none" data-maxheight="635">
+		<div class="fotorama" data-width="100%" data-ratio="1680/1000" data-nav="none" data-maxheight="635" data-maxheight="320">
 			<div>
 				<img src="i/slide.jpg" alt="">
 				<a href="" class="inner">

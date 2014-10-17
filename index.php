@@ -1,7 +1,7 @@
 <?include 'include/header.php';?>
 	
 	
-	<a href="views/index.php">Главная</a>
+	<a href="index.php">Главная</a>
 	
 	
 
