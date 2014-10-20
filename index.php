@@ -3,6 +3,5 @@
 	
 	<a href="index.php">Главная</a>
 	
-	
 
 <?include 'include/footer.php';?>

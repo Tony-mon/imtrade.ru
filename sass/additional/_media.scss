@@ -311,9 +311,66 @@
 			}
 		}
 	}
+
+	.brendsCol{
+		width: 33.33%;
+	}
+	.prodsCol{
+		width: 66.66%;
+		.row-1-3{
+			width: 50%;
+		}
+	}
+
+	.aboutBlock{
+		float: none;
+		width: 100%;
+		margin-top: 0;
+		.img{
+			@include imgWrapper(100%, 100%);
+			width: 33.33%;
+			float: left;
+			z-index: 10;
+			img{
+				min-height: 50% !important;
+				min-width: 50% !important;
+			}
+		}
+		.text {
+			margin-left: 33.33%;
+			height: 100%;
+			
+			.more{
+				bottom: 10px;
+			}
+		}
+		.greenBG{
+			&:after{
+				height: 60px;
+			}
+		}
+	}
+	.newsOnMain{
+		float: none;
+		width: 100%;
+	}
+	.logosCarusel{
+		.cWrapper{
+			margin-left: 16.66%;
+		}
+		.navi {
+			width: 16.66%;
+		}
+		.slick-prev{
+			left: -17%;
+		}
+		.slick-next{
+			left: -10%;
+		}
+	} 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
 	#footer{
 		height: 520px;
@@ -335,6 +392,86 @@
 		}
 	}
 
+	.prodsCol{
+		float: none;
+		width: 100%;
+	}
+	.brendsCol{
+		width: 100%;
+		float: none;
+		.row{
+			display: inline-block;
+		}
+		.slick-track{
+			font-size: 0px;
+		}
+		.brendRows {
+			height: auto !important;
+		}
+	}
+	.aboutBlock{
+		.img{
+			width: 50%;
+		}
+		.text{
+			margin-left: 50%;
+		}
+	}
+	.partnersBlock{
+		.navi{
+			margin-bottom: 10px;
+			.inner{
+				padding: 20px;
+			}
+			float: none;
+			width: 100%;
+			height: 69px !important;
+		}
+		.cWrapper {
+			margin-left: 0;
+		}
+		.slick-prev, .slick-next{
+			left: auto;
+			top: -45px;	
+		}
+		.slick-prev{			
+			right: 50px;			
+		}
+		.slick-next{
+			right: 20px;
+		}
+		.cTitle{
+			span{
+				font-size: 24px;
+				font-weight: 700;
+				text-transform: lowercase;
+				span{
+					display: inline-block !important;
+					text-transform: none;
+				}
+			}
+			
+		}
+	}
+
+}
+@media screen and (max-width: 620px){
+	.aboutBlock{
+		height: auto !important;
+		.img{
+			width: 100%;
+			float: none;
+			height: 160px !important;
+			.inner{
+				margin-top: -28%;
+			}
+
+		}
+		.text{
+			margin-left: 0;
+			height: 290px;
+		}
+	}
 }
 
 @media screen and (max-width: 512px){
@@ -345,6 +482,25 @@
 		}
 		.slideText{
 			font-size: 14px; 
+		}
+	}
+	
+	.prodsCol{
+		float: none;
+		width: 100%;
+		.row-1-3{
+			.title{
+				font-size: 12px;
+			}
+		}
+	}
+
+	.aboutBlock{
+		.img{
+			.inner{
+				margin-top: -50%;
+			}
+
 		}
 	}
 

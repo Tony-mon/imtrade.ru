@@ -119,6 +119,7 @@
 
 .categoryRows{
 	margin-top: 10px;
+	float: right;
 	[class*="row-"]{
 		&:hover{
 			.inner{
@@ -154,7 +155,9 @@
 		width: 100%;
 	}
 }
-
+.prodsCol {
+	float: right;
+}
 .newsOnMain{
 	.inner{
 		height: 100%;
@@ -203,6 +206,7 @@
 	margin-top: -25%;
 	position: relative;
 	overflow: hidden;
+	float: right;
 	&>.inner{
 		&:after{
 			display: block;
@@ -268,6 +272,7 @@
 					font-size: 31px;
 					font-weight: 700;
 					text-transform: none;
+					display: block;
 				}
 			}
 		}

@@ -16,6 +16,7 @@ $lBlue:#5496d5;
 $blue:#004588;
 $mdBlue:#003465;
 $faBlue:#002a51;
+$naviBlue:#2b569a;
 
 
 .greenBG{
@@ -167,7 +168,7 @@ $faBlue:#002a51;
 .logosCarusel{
 	.navi{		
 		.inner{
-			background:$blue;
+			background:$naviBlue;
 		}
 		.cTitle{
 			color:#fff;
